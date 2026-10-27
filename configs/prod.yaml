@@ -1,0 +1,8 @@
+spark:
+  app_name: transaction-etl
+  master: null
+
+paths:
+  input: null
+  output: null
+  rejected: null

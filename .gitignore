@@ -1,0 +1,22 @@
+# Python environments and caches
+venv/
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Local data and generated Spark outputs
+files/*.csv
+data/
+
+# Local secrets and environment-specific settings
+.env
+.env.*
+!.env.example
+
+# Spark and Hadoop local artifacts
+metastore_db/
+spark-warehouse/
+*.log

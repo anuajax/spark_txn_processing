@@ -1,0 +1,8 @@
+spark:
+  app_name: transaction-etl-local
+  master: local[*]
+
+paths:
+  input: files/transactions.csv
+  output: data/processed/transactions
+  rejected: data/rejected/transactions
